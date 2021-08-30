@@ -9,19 +9,11 @@ Yaxi.on("ready", () => {
   
   `You only live once, so try to live for God.`,
  
-  ];
-  setInterval(function() {
-    let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    corona.user.setActivity(STREAMING, {      
-    type: "STREAMING", 
-    url: "https://www.twitch.tv/faith"
-    });
-  }, 2000);
-});
+
 ///////////////////////
 corona.on("ready", () => {
-    var join = corona.channels.get(""); /// id voice
+    var join = corona.channels.get("874334828831600672"); /// id voice
     if (join) join.join();
   });
 //////////////// tokn lera da bne 
-corona.login("");
+corona.login("ODgxOTcwNjM1NjkyMTk1ODQx.YS0okg.RvO1EcFpitlagqArA1DBq5FVviE");
