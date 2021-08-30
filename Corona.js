@@ -15,5 +15,6 @@ corona.on("ready", () => {
     var join = corona.channels.get("874334828831600672"); /// id voice
     if (join) join.join();
   });
-//////////////// tokn lera da bne 
-corona.login("ODgxOTcwNjM1NjkyMTk1ODQx.YS0okg.RvO1EcFpitlagqArA1DBq5FVviE");
+//////////////// tokn lera da bn
+corona.login(""ODgxOTcwNjM1NjkyMTk1ODQx.YS0okg.RvO1EcFpitlagqArA1DBq5FVviE"");
+
